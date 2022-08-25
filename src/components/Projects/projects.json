@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Scraping SF Weather",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/WebScraping-SFWeather"
+            }
+        ],
+        "thumbnail": "https://user-images.githubusercontent.com/64393177/184447348-b3cb38e6-f236-4e4c-96a6-2ea31a313cd0.png",
+        "languages": [
+            "Python",
+            "Jupyter Notebook"
+        ],
+        "desc": "Scraping San Francisco's weather data and display it as table with Panda's DataFrame and Jupyter Notebook. Using Panda's DataFrame to extract temperature and calculate average temperature for the next 7 periods."
+    },
+    {
+        "name": "Decentralized Crowdfunding",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/WebScraping-SFWeather"
+            }
+        ],
+        "thumbnail": "https://user-images.githubusercontent.com/64393177/186577997-c57bb005-1728-43ed-915f-220f90c3268c.png",
+        "languages": [
+            "Solidity",
+            "Blockchain",
+            "JavaScript",
+            "React"
+        ],
+        "desc": "A decentralized CrowdFunding where funds are hosted by creators, but are controlled also by donators. Hosts can create and use spending(s) require approval of at least 50% of donators."
+    },
+    {
+        "name": "Gummy Virtual Assistant",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/WebScraping-SFWeather"
+            }
+        ],
+        "thumbnail": "src/assets/imgs/robot_fallback_img.jpg",
+        "languages": [
+            "Python"
+        ],
+        "desc": "A Bot written in Python providing day-to-day functionalities: play YT music, get weather data, get time and date, save contacts, and even send emails. Activated using voice."
+    },
+    {
+        "name": "Cryptonite",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/Cryptonite"
+            }
+        ],
+        "thumbnail": "src/assets/imgs/blockchain.jpg",
+        "languages": [
+            "JavaScript",
+            "React",
+            "Blockchain"
+        ],
+        "desc": "Provides real-time ranking of cryptocurrencies, global statistics, and search capability to find top 10 - 100 cryptos. Each crypto is analyzed and line charted to show increasing/ decreasing patterns."
+    },
+    {
+        "name": "Monthly Savings Visualizer",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/WebScraping-SFWeather"
+            }
+        ],
+        "thumbnail": "https://user-images.githubusercontent.com/64393177/186529165-53f05fe4-3765-4fb6-bc5a-efb9863a5237.png",
+        "languages": [
+            "Java"
+        ],
+        "desc": "Calculate the growth of monthly savings over the course of X years with or without interests. Data is visualized using JavaFX as line charts."
+    },
+    {
+        "name": "Web Wildlife Walk",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/Web-Widlife-Walk"
+            },
+            {
+                "name": "Demo",
+                "url": "https://webwildlife.netlify.app/"
+            }
+        ],
+        "thumbnail": "https://user-images.githubusercontent.com/64393177/186531800-1d86f8bb-fd3e-440c-b343-dc040cb0e1ee.png",
+        "languages": [
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+        ],
+        "desc": "A digital observations of species based on a given location and its surrounding areas. Data is retrieved using INaturalist API and displayed on a map with Nominatim OpenStreetMap."
+    },
+    {
+        "name": "Tic Tac Toe",
+        "urls": [
+            {
+                "name": "Github",
+                "url": "https://github.com/gumball09/WebScraping-SFWeather"
+            }
+        ],
+        "thumbnail": "src/assets/imgs/fallback_img.jpg",
+        "languages": [
+            "Java"
+        ],
+        "desc": "A Java-based Tic Tac Toe game. Game UI is written using JavaFX."
+    }
+]

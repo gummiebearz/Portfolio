@@ -1,0 +1,183 @@
+.content .title {
+	font-size: 1.2rem;
+	color: #7aa8f9;
+	font-style: italic;
+	font-weight: 800;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	/* background-color: #ff4500; */
+	background-color: #ff8383;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+	padding: 10px 50px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: #ffb5aa;
+	border: 4px solid #ff8383;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+	left: 0;
+}
+
+/* Place the container to the right */
+.right {
+	left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid white;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #99c1ff;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid white;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #ff8383 transparent transparent;
+}
+
+/* Remove circles for right containers */
+.right::after {
+	background-color: transparent;
+	border: none;
+}
+
+/* The actual content */
+.content {
+	/* padding: 20px 30px; */
+	padding: 1em 2em;
+	background-color: white;
+	position: relative;
+	border-radius: 0.375em;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.timeline > div:nth-child(odd) > .content .title {
+	text-align: right;
+}
+
+.timeline > div:nth-child(odd) > .content {
+	border: 1px solid #99c1ff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.timeline > div:nth-child(even) > .content {
+	border: 1px solid #ff8383;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	column-gap: 1.2em;
+	text-align: left;
+}
+
+.timeline > div:nth-child(odd) > .content:hover {
+	/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+	/* Place the timelime to the left */
+	.timeline::after {
+		left: 31px;
+	}
+
+	/* Full-width containers */
+	.container {
+		width: 100%;
+		padding-left: 70px;
+		padding-right: 25px;
+	}
+
+	/* Make sure that all arrows are pointing leftwards */
+	.container::before {
+		left: 60px;
+		border: medium solid white;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent white transparent transparent;
+	}
+
+	/* Make sure all circles are at the same spot */
+	.left::after,
+	.right::after {
+		left: 15px;
+	}
+
+	/* Make all right containers behave like the left ones */
+	.right {
+		left: 0%;
+	}
+}
+
+#president-list__items {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.15em;
+}
+
+.president-list__item {
+	padding: 0.2em;
+	/* border: 1px solid black; */
+	border: 1px solid #ff8383;
+	background: #ffb5aa;
+	color: black;
+	font-size: 0.9rem;
+}
+
+.president-list__item:hover {
+	cursor: pointer;
+	background: rgb(255, 69, 0, 0.7);
+}
