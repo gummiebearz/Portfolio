@@ -26,3 +26,4 @@ dist-ssr
 .history
 .env
 package-lock.json
+*.psd
