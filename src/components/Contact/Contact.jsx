@@ -41,7 +41,7 @@ export default function Contact() {
                 <div className="contact-title__container">
                     <h1 className="title">Get In Touch</h1>
                     <div className="contact-title__chatbox">
-                        <img className="contact-form-msg__img" src={`${msg.statusNo === 200 ? "src/assets/imgs/ok_msg.png" : "src/assets/imgs/error_msg.png"}`} width="210px" height="160px" />
+                        <img className="contact-form-msg__img" src={`${msg.statusNo === 200 ? "/assets/imgs/ok_msg.png" : "src/assets/imgs/error_msg.png"}`} width="210px" height="160px" />
                         <div className="contact-form-msg__text">
                             <span>&nbsp;Status:</span><br />
                             <span id="text">{msg.statusText}</span>

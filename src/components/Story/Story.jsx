@@ -15,7 +15,7 @@ function Timeline() {
             <div className="container right">
                 <div className="content">
                     <div style={{
-                        backgroundImage: `url('src/assets/imgs/highschool_1.jpg')`,
+                        backgroundImage: `url('/assets/imgs/highschool_1.jpg')`,
                         backgroundSize: "contain",
                         width: "500px",
                         height: "250px",
@@ -41,7 +41,7 @@ function Timeline() {
             <div className="container right">
                 <div className="content">
                     <div style={{
-                        backgroundImage: `url('src/assets/imgs/Presidents_Honour_List_Winter2021.png')`,
+                        backgroundImage: `url('/assets/imgs/Presidents_Honour_List_Winter2021.png')`,
                         backgroundSize: "cover",
                         backgroundPosition: "50% 50%",
                         width: "500px",
@@ -55,13 +55,13 @@ function Timeline() {
                         <br />
                         <small>Links:</small>
                         <div id="president-list__items">
-                            <a href="src/assets/files/Presidents_Honour_List_Fall2020.pdf" target="_blank">
+                            <a href="/assets/files/Presidents_Honour_List_Fall2020.pdf" target="_blank">
                                 <button className="president-list__item">Fall 2020</button>
                             </a>
-                            <a href="src/assets/files/Presidents_Honour_List_Winter2021.pdf" target="_blank">
+                            <a href="/assets/files/Presidents_Honour_List_Winter2021.pdf" target="_blank">
                                 <button className="president-list__item">Winter 2021</button>
                             </a>
-                            <a href="src/assets/files/Presidents_Honour_List_Fall2021.pdf" target="_blank">
+                            <a href="/assets/files/Presidents_Honour_List_Fall2021.pdf" target="_blank">
                                 <button className="president-list__item">Fall 2021</button>
                             </a>
                         </div>
