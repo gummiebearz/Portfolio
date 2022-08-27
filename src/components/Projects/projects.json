@@ -31,7 +31,7 @@
                 "url": "https://github.com/gumball09/Python-Virtual-Assistant"
             }
         ],
-        "thumbnail": "src/assets/imgs/robot_fallback_img.jpg",
+        "thumbnail": "/src/assets/imgs/robot_fallback_img.jpg",
         "languages": ["Python"],
         "desc": "A Bot written in Python providing day-to-day functionalities: play YT music, get weather data, get time and date, save contacts, and even send emails. Activated using voice."
     },
@@ -43,7 +43,7 @@
                 "url": "https://github.com/gumball09/Cryptonite"
             }
         ],
-        "thumbnail": "src/assets/imgs/blockchain.jpg",
+        "thumbnail": "/src/assets/imgs/blockchain.jpg",
         "languages": ["JavaScript", "React", "Blockchain"],
         "desc": "Provides real-time ranking of cryptocurrencies, global statistics, and search capability to find top 10 - 100 cryptos. Each crypto is analyzed and line charted to show increasing/ decreasing patterns."
     },
@@ -102,7 +102,7 @@
                 "url": ""
             }
         ],
-        "thumbnail": "src/assets/imgs/fallback_img.jpg",
+        "thumbnail": "/src/assets/imgs/fallback_img.jpg",
         "languages": ["Java"],
         "desc": "A Java-based Tic Tac Toe game. Game UI is written using JavaFX."
     }
