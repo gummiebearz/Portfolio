@@ -1,4 +1,6 @@
-import assignProps from '../js/assignProps.js'
+const assignProps = (props, defaultProps) => {
+    return Object.assign({}, defaultProps, props)
+}
 
 const defaultProps = {
     easing: 'cubic-bezier(0.5, 0, 0, 1)',
